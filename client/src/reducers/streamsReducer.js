@@ -3,19 +3,19 @@ import {omit, mapKeys} from 'lodash';
 
 export default (state = {}, action) => {
 	switch (action.type) {
-		case action.type === FETCH_STREAMS:
+		case FETCH_STREAMS:
 			return {...state, ...mapKeys(action.payload, 'id')};
 
-		case action.type === FETCH_STREAM:
+		case FETCH_STREAM:
 			return {...state, [action.payload.id]: action.payload};
 
-		case action.type === CREATE_STREAM:
+		case CREATE_STREAM:
 			return {...state, [action.payload.id]: action.payload};
 
-		case action.type === UPDATE_STREAM:
+		case UPDATE_STREAM:
 			return {...state, [action.payload.id]: action.payload};
 
-		case action.type === DELETE_STREAM:
+		case DELETE_STREAM:
 			return omit(state, action.payload);
 		default:
 			return state;

@@ -4,6 +4,29 @@
       "title": "gfd",
       "description": "gfdgfd",
       "id": 1
+    },
+    {
+      "title": "New stream with user Id",
+      "description": "Here is super cool stream111",
+      "id": 2
+    },
+    {
+      "title": "gdf5435",
+      "description": "gfd",
+      "userId": "117869881543069496028",
+      "id": 3
+    },
+    {
+      "title": "5342",
+      "description": "5423",
+      "userId": "117869881543069496028",
+      "id": 4
+    },
+    {
+      "title": "423",
+      "description": "432432",
+      "userId": "117869881543069496028",
+      "id": 5
     }
   ]
 }
